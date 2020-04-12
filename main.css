@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    background: #666;
+    margin: 0;
+    padding: 0;
+}
+
+#arena {
+    width: 80vh;
+    height: 80vh;
+    margin: 10vh auto;
+    border: 1px solid #ccc;
+    background: #999;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    background: tomato;
+    border: 1px solid white;
+    position: absolute;
+}
